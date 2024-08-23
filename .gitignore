@@ -1,3 +1,42 @@
+# Compiled source #
+###################
 build/
+dist/
+*.o
+*.so
+*.exe
+*.dll
+*.class
+*.jar
+
+# Packages #
+############
+# it's recommended to ignore the node_modules directory
 node_modules/
+# Similarly, for Python projects, you might want to ignore the virtual environment directory
+venv/
+*.egg-info/
+*.pyc
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Editor directories and files #
+################################
 .vscode**
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment files #
+#####################
+.env
